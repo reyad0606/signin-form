@@ -51,7 +51,7 @@ function App() {
     <div className='user'>
       <div className='user__singin'>
         <form onSubmit={handleSignIn}>
-          <h3>SignIn</h3>
+          <h2>SignIn</h2>
           <h5>Email:</h5>
           <input
             type='email'
@@ -79,7 +79,7 @@ function App() {
       </div>
 
       <div className='user__signup'>
-        <h3>SignUp</h3>
+        <h2>SignUp</h2>
         <h5>Name</h5>
         <input type='text' />
         <h5>Email:</h5>
